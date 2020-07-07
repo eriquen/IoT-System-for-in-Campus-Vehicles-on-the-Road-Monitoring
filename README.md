@@ -3,3 +3,13 @@ This system is designed to monitor the speed of the vehicles on the road. The im
 
 ### Layout
 <div style="width:250px"><img src="/images/layout.jpg" /></div>
+
+### Flowchart
+<div style="width:250px"><img src="/images/flowchart.png" /></div>
+
+### Dashboard
+<div style="width:250px"><img src="/images/dashboard.JPG" /></div>
+
+### Summon Detail
+<div style="width:250px"><img src="/images/summondetail.JPG" /></div>
+
