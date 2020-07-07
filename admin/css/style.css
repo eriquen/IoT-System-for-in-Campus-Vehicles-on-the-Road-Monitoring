@@ -1,0 +1,123 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+footer{
+  margin-bottom: 0;
+}
+main {
+  flex: 1 0 auto;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.logo{
+  width: 45px;
+  height: 45px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.login-form{
+  margin-top: 80px;
+  margin-bottom: 155px;
+}
+
+.sidebar{
+  height: 100vh;
+}
+.sidebar ul li{
+  height: 44px;
+
+  transition: .3s ease-out;
+}
+.sidebar ul li a{
+  padding: 0 30px;
+  height: 44px;
+  display: flex;
+  /* flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+}
+
+.sidebar ul li:hover{
+  background-color: rgba(0,0,0,0.05);
+}
+
+.container1{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.pr-2{
+  padding-right: 5px;
+}
+#p-0{
+  padding: 0;;
+}
+#m-0{
+  margin: 0;;
+}
+
+.d-flex{
+  display: flex;
+} 
+
+.w-30{
+  width: 30px;
+}
+.align-items-center{
+  align-items: center;
+}
