@@ -3,3 +3,4 @@ This system is designed to monitor the speed of the vehicles on the road. The im
 
 ### Layout
 <div style="text-align:center"><img src="/images/layout.jpg" /></div>
+![](./images/layout.jpg =250x)
