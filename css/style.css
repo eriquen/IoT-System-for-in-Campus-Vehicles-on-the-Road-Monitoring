@@ -11,12 +11,19 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-footer{
+
+body main {
+  flex: 1 0 auto;
+}
+
+footer {
   margin-bottom: 0;
 }
+
 main {
   flex: 1 0 auto;
 }
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -34,13 +41,14 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
 
-.logo{
+.parallax-container .section {
+  width: 100%;
+}
+
+.logo {
   width: 45px;
   height: 45px;
 }
@@ -50,6 +58,7 @@ p {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
@@ -64,6 +73,7 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -71,7 +81,52 @@ p {
 footer.page-footer {
   margin: 0;
 }
-.login-form{
+
+.login-form {
   margin-top: 80px;
   margin-bottom: 155px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+/* font */
+.f-Alegrey {
+
+  font-family: 'Times New Roman', serif;
+}
+
+.Pacifico {
+  font-family: Pacifico;
+}
+
+p {
+  margin: 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 0.373rem;
+}
+
+/* Padding and margin */
+
+.pad-20 {
+  padding: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.h-64 {
+  height: 64px;
+}
+
+.img_logo {
+  width: 100px;
 }

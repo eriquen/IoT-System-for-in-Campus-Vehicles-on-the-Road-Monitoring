@@ -1,39 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>VMS</title>
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-</head>
-
-<body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="index.html" class="brand-logo">VMS</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="login.html">Login</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="login.html">Login</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
+<?php include("includes/header.php"); ?>
+<?php
+ if($_SESSION['user_role'] == 'Admin'){
+         redirect("admin/index.php");
+     }
+?>
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Vehicle Monitoring System</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern system based on OpenCV and Tessaract to monitor vehicle on the road
+          <h5 class="header col s12 light">A MODERN SYSTEM BASED ON OPENCV AND TESSARACT TO MONITOR VEHICLE ON THE ROAD
           </h5>
         </div>
         <!-- <div class="row center">
@@ -92,7 +69,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">ENTRANCEFORMATION ORGANIZATION, STRENGTHENING INTEGRITY</h5>           
         </div>
       </div>
     </div>
@@ -105,7 +82,7 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
+          <h4>CONTACT US</h4>
           <p class="center-align light">JABATAN KESELAMATAN  UniMAP 
 
             NO 25 JALAN MERANTI PAYA,
@@ -126,27 +103,11 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">Security is always excessive until it's not enough.</h5>
+          <h5 class="header col s12 light">SECURITY IS ALWAYS EXCESSIVE UNTIL IT'S NOT ENOUGH.</h5>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal down">
-    <div class="footer-copyright">
-      <div class="container">
-        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Syed Adzha</a>
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-</body>
-
-</html>
+  <?php include("includes/footer.php"); ?>

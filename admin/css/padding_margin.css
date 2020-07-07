@@ -1,0 +1,49 @@
+.mt-2 {
+    margin-top: 20px !important;
+}
+
+.mb-2 {
+    margin-bottom: 20px !important;
+}
+#m-0{
+    margin-bottom: 0 !important;
+    
+}
+#p-0{
+    padding: 0 !important;
+}
+/* #row{
+    margin-bottom: 0;
+} */
+.card #p-12{
+    padding: 12px !important;
+}
+
+.p-2{
+    padding: 20px;
+}
+.n-m{
+    margin: 0;
+}
+.head-fine{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 5px 5px 5px 10px;
+}
+.head-fine h6{
+    padding-left: 10px;
+    margin-top: 2px;
+}
+.plate{
+    padding-right: 4px;
+}
+
+.ps-2{
+    padding: 10px;
+    text-align: right;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
