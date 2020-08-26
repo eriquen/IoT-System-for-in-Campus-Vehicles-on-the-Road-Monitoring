@@ -1,9 +1,5 @@
 <?php include("includes/header.php"); ?>
-<?php
- if($_SESSION['user_role'] == 'Admin'){
-         redirect("admin/index.php");
-     }
-?>
+
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -22,7 +18,6 @@
     </div>
     <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
-
 
   <div class="container">
     <div class="section">

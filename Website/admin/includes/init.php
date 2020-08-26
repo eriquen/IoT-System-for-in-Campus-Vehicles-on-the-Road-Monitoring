@@ -1,7 +1,7 @@
 <?php 
 
 defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
-defined('SITE_ROOT') ? null : define('SITE_ROOT', DS .'var' . DS . 'www' . DS . 'html' . DS . 'eriquen' . DS . 'RMS');
+defined('SITE_ROOT') ? null : define('SITE_ROOT', 'D:' . DS . 'xampp' . DS . 'htdocs' . DS . 'RMS');
 defined('INCLUDES_PATH') ? null : define('INCLUDES_PATH', SITE_ROOT . DS .'admin' . DS . 'includes');
 
 require_once("function.php");
